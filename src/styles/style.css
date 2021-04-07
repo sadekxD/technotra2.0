@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+	width: 200vw;
+}
+
+#hero {
+	background: -webkit-gradient(
+		linear,
+		to-left,
+		from(rgba(0, 0, 0, 0.4)),
+		to(rgba(0, 0, 0, 0.4))
+	);
+	background: linear-gradient(to-left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	position: relative;
+}
+
+#hero .hero-container {
+	max-width: 1100px;
+	width: 100%;
+}
+
+#hero .hero-container .hero-content .hero-header2 {
+	font-size: 7.5rem;
+}
+
+#hero .hero-container .hero-content .hero-u {
+	width: 4rem;
+	height: 5px;
+	background-color: #fff;
+}
+
+#hero .hero-container .hero-bottom-content {
+	max-width: 1100px;
+	width: 100%;
+	bottom: -10rem;
+}
+
+@media screen and (max-width: 640px) {
+	#hero .hero-container .hero-bottom-content {
+		bottom: 0;
+	}
+}
+
+nav .nav-container {
+	max-width: 1100px;
+}
+
+.hero-card:nth-child(1) {
+	border-right: 1px solid #444444;
+}
+
+.hero-card:nth-child(2) {
+	border-right: 1px solid #444444;
+}
+
+@media screen and (max-width: 640px) {
+	.hero-card:nth-child(1) {
+		border-bottom: 1px solid #444444;
+		border-right: none;
+	}
+	.hero-card:nth-child(2) {
+		border-bottom: 1px solid #444444;
+		border-right: none;
+	}
+}
+
+.hero-card:hover {
+	background-color: #222222;
+}
+
+#tsparticles {
+	z-index: -1;
+}
+
+#about {
+	min-height: 720px;
+}
+
+#about .about-container {
+	padding: 300px 24px 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1399px) {
+	#about .about-container .about-left-col .about-reveal-content .about-heading {
+		font-size: 70px;
+		line-height: 75px;
+	}
+	#about
+		.about-container
+		.about-left-col
+		.about-reveal-content
+		.about-heading
+		span {
+		font-size: 80px;
+	}
+}
+
+* {
+	font-family: Poppins;
+}
+
+.font-2 {
+	font-family: "Oswald", sans-serif;
+}
+
+.center {
+	@apply flex items-center justify-center;
+}
+
+.container {
+	max-width: 1100px;
+	width: 100%;
+}
+
+.bg-dark-2 {
+	background-color: #111111;
+}
+/*# sourceMappingURL=style.css.map */

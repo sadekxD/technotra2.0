@@ -1,0 +1,26 @@
+#tsparticles {
+	z-index: -1;
+}
+
+#about {
+	min-height: 720px;
+
+	.about-container {
+		padding: 300px 24px 100px;
+
+		.about-left-col {
+			.about-reveal-content {
+				.about-heading {
+					@media (min-width: 768px) and (max-width: 1399px) {
+						font-size: 70px;
+						line-height: 75px;
+
+						span {
+							font-size: 80px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
