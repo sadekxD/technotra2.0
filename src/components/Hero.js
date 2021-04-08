@@ -1,6 +1,6 @@
 import React from "react";
 import video from "../media/video.mp4";
-import HeroCards from "./cards/HeroCards";
+import HeroCards from "./cards/HeroCard";
 
 const Hero = () => {
 	return (
@@ -16,7 +16,7 @@ const Hero = () => {
 			<div className="hero-container mx-auto w-full z-20 h-full">
 				<div className="hero-content mx-auto h-screen flex flex-col justify-center px-6">
 					<h2 className="hero-heading1 text-5xl text-white font-2">creative</h2>
-					<h1 className="hero-heading2 lg:text-7xl md:text-5xl sm:text-3xl uppercase font-extrabold my-5 transition-all duration-500 ease-in-out text-white">
+					<h1 className="hero-heading2 text-4xl sm:text-4xl lg:text-7xl md:text-5xl uppercase font-extrabold my-5 transition-all duration-500 ease-in-out text-white">
 						Digital agency
 					</h1>
 					<div className="hero-u"></div>

@@ -1,0 +1,5 @@
+$arr = [
+	'fruits' => [
+		's' => 'apple'
+	]
+]

@@ -8,13 +8,14 @@
 @import "./about";
 
 $bgDark2: #111111;
+$font2: "Oswald", sans-serif;
 
 * {
 	font-family: Poppins;
 }
 
 .font-2 {
-	font-family: "Oswald", sans-serif;
+	font-family: $font2;
 }
 
 .center {
