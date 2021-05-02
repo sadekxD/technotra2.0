@@ -26,13 +26,13 @@ const Projects = () => {
 						<motion.span className="text-blue-300">s</motion.span>
 					</motion.h2>
 
-					<div className="projects p-6 md:py-12">
+					<div className="projects py-4 px-4 sm:px-12 lg:px-12">
 						<div>
 							<div className="project-list grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-9">
-								<ProjectCard animName={anim1} />
 								<ProjectCard />
+								<ProjectCard animName="anim2" />
 								<ProjectCard />
-								<ProjectCard />
+								<ProjectCard animName="anim2" />
 								<ProjectCard />
 								<ProjectCard />
 							</div>
@@ -43,24 +43,6 @@ const Projects = () => {
 		</ProjectsSection>
 	);
 };
-
-const anim1 = keyframes`
-				0% {
-					transform: translateY(10px);
-				}
-				100% {
-					transform: translateY(-10px);
-				}
-			`;
-
-const anim2 = keyframes`
-				0% {
-					transform: translateY(-10px);
-				}
-				100% {
-					transform: translateY(10px);
-				}
-			`;
 
 const ProjectsSection = styled.div`
 	.heading {
